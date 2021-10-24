@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <h3>お申し込み確認メール</h3>
+    <p>
+      システムの不備により申込確認メールがお送りできていない不具合を確認いたしました。<br />
+      メールが送信できていない可能性のある方皆様にお送りしております。<br />
+      この度はご不便をおかけしてしまい申し訳ございませんでした。<br>
+      <hr>
+      第10回旭祭への予約申し込みをいただき、誠にありがとうございます。<br />
+      以下の通り予約を承りました。
+    </p>
+
+    <table class="table" border="1">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">id</th>
+          <th scope="col">名前</th>
+          <th scope="col">メールアドレス</th>
+          <th scope="col">来場予定</th>
+          <th scope="col">所属</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <?!=tbody?>
+        </tr>
+      </tbody>
+    </table>
+    <p class="text-danger">※受付時に本メールに記載のIDが必要です。</p>
+    <hr />
+
+    <div></div>
+
+    <div style="text-align: center">
+        <p>当日皆様とお会いできるのを楽しみにしております。<br>お気をつけてお越しください。</p>
+      <div class="btn btn-primary text-center" style="margin-bottom: 20px;">
+        <a
+          href="https://www.dendai.ac.jp/access/tokyo_senju.html"
+          class="text-light"
+        >
+          アクセス
+        </a>
+      </div>
+      <br>  
+      <p>【開催地】: 〒120-8551 東京都 足立区 千住旭町5<br /></p>
+      <p　>【開催日】:2021年10月 30日(土)・31日(日)</p>
+      
+      <p><u>キャンセルをご希望の方はこちらのキャンセルフォームからお手続きください。</u></p>
+      <div class="btn btn-danger text-center" style="margin-bottom: 20px;">
+        <a
+          href="https://forms.gle/RcoEoa7bF54p2g8U8"
+          class="text-light"
+        >
+          キャンセルフォーム
+        </a>
+      </div>
+
+      <p>お問い合わせは以下のメールアドレスまでお願いいたします。<br><u class="text-danger">※本メールは送信専用です。お問い合わせをいただいても回答できません。</u></p>
+      <p>【お問合せ先】:soumu.asahi10@gmail.com</p>
+    </div>
+  </body>
+</html>
