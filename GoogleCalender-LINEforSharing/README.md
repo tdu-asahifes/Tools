@@ -1,0 +1,2 @@
+# GoogleCalender-LINEforSharing
+GoogleカレンダーのイベントをLINEに通知する為のプログラムです
